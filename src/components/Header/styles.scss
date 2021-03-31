@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  //position: fixed;
   top: 0;
   left: 0;
   height: 80px;
@@ -10,6 +10,7 @@
   width: 100%;
   color: #fff;
   align-items: center;
+  font: 400 16px/24px Arial, Hlvetica, sans-serif;
 
   &__logo {
     height: 100%;

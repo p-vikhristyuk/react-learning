@@ -21,9 +21,18 @@ body {
 
 .page {
   padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-content: center;
+
+  .header {
+    position: fixed;
+  }
   
   &__main {
     padding: 20px 0;
+    flex: 1;
   }
 }
 

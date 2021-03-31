@@ -3,6 +3,7 @@ import './App.scss';
 
 //components
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 //pages
 import Home from './pages/Home';
@@ -14,6 +15,7 @@ function App() {
             <div className="page__main">
                 <Home/>
             </div>
+            <Footer/>
         </div>
     );
 }
